@@ -4,7 +4,7 @@ public class Contact {
     private long phoneNo;
     private String name;
     private String email;
-    private enum Gender {male,female};
+    public enum Gender {male,female};
     public Contact(long phoneNo,String name,String email){
         this.phoneNo = phoneNo;
         this.name = name;
@@ -34,4 +34,5 @@ public class Contact {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }

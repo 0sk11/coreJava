@@ -50,7 +50,7 @@ public class Main {
         Employee e = null;
         for(var h : treeSet){
             e = h;
-            System.out.println(e.getDept());
+            System.out.println(e.getId()+" "+e.getName()+" "+e.getDept()+" "+e.getSalary());
         }
 //
 //        // 4th
